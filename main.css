@@ -1,0 +1,77 @@
+p{
+   		color: purple;
+   		font-size: 20px
+
+
+   }
+   .listitem{
+   	color:aqua;
+   	font-size: 35px;
+   }
+.paragraph{
+   	color:=maroon;
+   	font-size:2.5em
+   }
+   	header{ 
+   		height: 250px;
+   		width: 99%;
+   		border:blue;
+   		background-color:#660066;
+         font-size: 10em;
+
+   	
+   }
+   footer{ 
+   height: 300px;
+   width:99%;
+   border: blue
+   background-color: #00b3b3;
+    }
+      .warp-trivia{
+         height: 500px;
+         width: 450px;
+         border: #00cccc;
+      }
+
+    .wrap-list {
+      height: 400px;
+      width: 450px;
+      border: #3399ff;
+    }
+      .wrap-text {
+         color: #800080;
+         font-size:2.1em;
+      }
+      #one{
+         height: 150px;
+         width: 150px;
+         background-color: #4d4dff;
+         display: inline-block;
+         
+         position: fixed;
+         left: 25%;
+      }
+      #two{
+         height: 150px;
+         width:150px;
+         background-color: #ffff66;
+          display:inline-block;
+          position: absolute;
+          z-index:1;
+          position: relative;
+          top: 750px;
+          margin: 0 auto;
+       }
+      #three{
+         height: 150px;
+         width:150px;
+         background-color: #00cc99;
+         display: inline-block;
+         position: absolute;
+         z-index: 2;
+
+
+      }
+      #blue{
+         height:2048px;
+      }

@@ -1,0 +1,115 @@
+<html>
+ <head>
+ 	<link rel="stylesheet" type="text/css" href="main.css">
+  <title>
+   My first web
+   </title>
+   <script>
+   	function banner(){
+   		var text= confirm("This goes to a different website. You can still go back at any time. Continue?")
+   		return text;
+   	}
+   	function answer(){
+   		var radio = document.getElementsByName("trivia");
+		var selection = false; 
+		var message = "";
+		for( var i = 0; i < radio.length; i++) { 
+			if(radio[i].value ="thisone" && radio[i].checked == true) { 
+			selection = true; 
+			} //end if statement 
+		} //end for loop
+		if(selection = true) {
+			message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+		} else { 
+		message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+		}
+		document.getElementById("response").innerHTML = message;
+
+	}//end function answer
+   
+   
+   
+	</script>
+ 	</head>
+   <body> 
+   	<a href="https://studio.code.org" onclick="return banner()">
+   	<header id="header">MY WEBSITE</header>
+   </a>
+   	<nav>
+   		<ul id="navmenu">
+   			<li class="navmenu"> <a href="https://kidsastronomy.com/">Research I like</a>
+   			</li>
+   			<li class="navmenu"> <a href="https://www.duolingo.com/">Where I learn Spanish</a></li>
+   			<li class="navmenu"> <a href="https://www.youtube.com/watch?v=mQnKmWwIKF4"> Gymnastics fails video!!</a> </li>
+   		</ul>
+   	</nav>
+   	<div id="image">
+   		<img src="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjgxb3X2KreAhUCqFQKHdUIDSsQjRx6BAgBEAU&url=http%3A%2F%2Fwww.clipartpanda.com%2Fcategories%2Fviolin-clip-art-free&psig=AOvVaw11-G7dSKcqbno1CsPiPgJY&ust=1540869592977305">
+
+   	</div>
+   	
+
+   	  	       
+<div>  	  	       
+   	            
+    <h1>
+    	Things about me! Vote on one of my hobbies. 
+    </h1>
+   	 <p class="paragraph"> I love to read.</p>
+   	 <p>
+    	<u><span class="wrap-text">I do gymnastics.</span></u> 
+       </p>
+    <p>
+       <b>I play violin.</b> 
+   </p>
+   		<p>
+       <i>I am learning Spanish. </i>
+      </p>
+         <p>
+       <b>I like to be quiet.</b>
+        </p>
+
+    
+     <div class="wrap-list">
+    <ol>
+
+    	<li class="listitem"> I am 10 years old </li>
+
+    	<li class="listitem"> I have blue-green eyes</li>
+
+    	<li class="listitem"> I like crafts</li>
+    </ol>
+      </div>
+
+    <img src="https://images.nbcolympics.com/www.nbcolympics.com/field_image/28July2016/ellie-downie_2014-yog_gettyimages-454076998.jpg"/>
+    <img src="https://i2.wp.com/www.makefilmplay.com/wp-content/uploads/2018/06/B334BADF-D8D0-4F08-8931-2A3D1D476C49.jpeg?resize=640%2C440"/>
+       <hr>
+         <center>My name is Sadie... <a href= "https://studio.code.org">Check out my favorite website</a> </center>
+        <hr>
+
+        <div class="warp-trivia">
+         <h2> Bonus quiz about me?!</h2>
+          <p> Question 1. What's my favorite website?</p>
+          <form>
+        	<div id="response"> </div>
+           	<input type="radio" name="1st answer" value="thisone"> studio.code.org <br>
+    		<input type="radio" name="2ndanswer" value="the2ndone"> mytechhigh.com <br>
+
+        	<input type="radio" name="3rd answer" value="thatone"> duolingo.com <br>
+         	<input type="button" id="submit" value="Click here" onclick="answer()">
+     	</div>
+
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/wCYxBxDwDIw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+     <p> Joslyn Walsh and Kaytlynn Bradley, two of my teammates from gymnastics!(I am not in this)</p>
+     <audio width="400" height="220" controls autoplay>
+<source src="bensound-funday.mp3" type="audio/mpeg">
+</audio>
+<p> Fun Day by Bensound </p>
+ 
+
+
+
+     </form>
+ </div>
+     <footer>Sadie L</footer>
+ </body>
